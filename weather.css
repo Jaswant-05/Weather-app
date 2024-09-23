@@ -1,0 +1,131 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+p{
+    font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+.main-container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.82);
+}
+
+.weather-app-container{
+    width : 500px;
+    height : 700px;
+    border-radius: 20px;
+    background: linear-gradient(135deg, #00feba, #5b548a);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.navbar{
+    width: 100%;        
+    height: 100px;
+    padding-top: 40px;
+    display: flex;          
+    justify-content: center;
+}
+
+.search-bar{
+    width: 350px;
+    height: 50px;
+    border-radius: 22px;
+    border : none;
+    vertical-align: top;
+    padding-left: 20px;
+    font-size: 15px;
+    color: grey;
+}
+
+.search-icon{
+    background-color: white;
+    border: none;
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+    margin-left: 15px;
+    cursor: pointer;
+}
+
+.search-img{
+    width: 20px;
+    height: 20px;
+}
+
+.weather-status-icon{
+    width: 150px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.weather-icon{
+    max-width: 150px;
+    object-fit: contain;
+}
+
+.temperature{
+    margin-top: 25px;
+}
+
+.temp-text{
+    font-size: 60px;
+    color: white;
+}
+
+.city-name-container{
+    margin-top: 15px;
+}
+
+.city-name{
+    font-size: 48px;
+    color: white;
+}
+
+.last-section{
+    width: 100%;
+    display:flex;
+    justify-content: center;
+    flex-direction: row;
+    margin-top:60px;
+}
+
+.left-section{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.right-section{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.last-icons{
+    width: 35px;
+    height: 35px;
+    margin-right: 10px;
+}
+
+.text1{
+    font-family: "Plus Jakarta Sans", sans-serif;
+    color: white;
+    font-size: 30px;
+    margin-right: 50px;
+}
+
+.text2{
+    font-family: "Plus Jakarta Sans", sans-serif;
+    color: white;
+    font-size: 30px;
+}
